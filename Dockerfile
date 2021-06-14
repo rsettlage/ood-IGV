@@ -5,7 +5,8 @@ RUN mkdir /apps
 
 RUN apt update && apt-get install -y \
     zip \
-    wget
+    wget \
+    libxext6
 
 RUN cd /apps \
   && wget https://data.broadinstitute.org/igv/projects/downloads/2.9/IGV_Linux_2.9.4_WithJava.zip \
