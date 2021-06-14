@@ -6,6 +6,17 @@ RUN mkdir /apps
 RUN apt update && apt-get install -y \
     zip \
     wget \
+    gcc \
+    libfreetype6 \
+    libglib2.0-0 \
+    libgl1-mesa-dev \
+    libglu1-mesa \
+    libgtk2.0-dev \
+    libgtk2.0-0 \
+    libncurses5 \
+    net-tools \
+    python3 \
+    python3-pip \
     libxext6 \
     libxrender1 \
     software-properties-common \
